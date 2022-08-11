@@ -1,0 +1,23 @@
+C:\Users\Casper\.jdks\openjdk-18.0.1.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\lib\idea_rt.jar=55849:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin" -Dfile.encoding=UTF-8 -classpath "D:\niit projects\GitLabProjects\Course-3\Sprint 2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart" FurnitureItemImpl
+enter furnitureCode
+54
+enter furnitureType 
+tables
+enter gradeOfFurniture
+grade 2
+enter color
+red
+enter furnitureUsage
+outdoor
+enter price of furniture
+50
+enter discount
+5
+furnitureCode = 54
+furnitureType = tables
+gradeOfFurniture = grade
+color = red
+price = $50.0
+discountPrice = $47.5
+
+Process finished with exit code 0
