@@ -1,0 +1,10 @@
+
+
+public class FurnitureItemImpl {
+     public static void main(String[] args) {
+
+        FurnitureItem obj = new FurnitureItem();
+        System.out.println("discountPrice = $" + obj.discountPrice(5));
+
+    }
+}
