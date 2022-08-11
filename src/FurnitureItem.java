@@ -43,23 +43,24 @@ public class FurnitureItem {
                 discount = sc.nextDouble();
 
 
+
                 System.out.println("furnitureCode = " + furnitureCode);
                 System.out.println("furnitureType = " + furnitureType);
                 System.out.println("gradeOfFurniture = " + gradeOfFurniture);
                 System.out.println("color = " + color);
                 System.out.println("price = $" + price);
             }
-                public double discountPrice(double discount)
-                {
+                public double discountPrice(double discount)  {
 
-                    furniture();
-                     if(furnitureUsage == "outdoor"){
+                furniture();
+
+                if(furnitureUsage.equals("outdoor"))
+                {
                     double discountPrice =  price - (discount*price/100);
-                    System.out.println("discountPrice = " + discountPrice);
                     return  discountPrice;
 
                 }
-                    return discount;
+                    return price;
                 }
 }
 
